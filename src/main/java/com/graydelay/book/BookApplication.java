@@ -1,13 +1,13 @@
-package com.example.webservice;
+package com.graydelay.book;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebserviceApplication {
+public class BookApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebserviceApplication.class, args);
+		SpringApplication.run(BookApplication.class, args);
 	}
 
 }
