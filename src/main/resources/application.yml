@@ -2,6 +2,9 @@ spring:
   profiles:
     include: oauth
   session:
+    jdbc:
+      initialize-schema: always
+      schema: classpath:org/springframework/session/jdbc/schema-mysql.sql
     store-type: jdbc
   datasource:
     url: jdbc:h2:mem:testdb
